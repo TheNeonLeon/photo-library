@@ -1,0 +1,45 @@
+/*
+Theme Name: photo-album custom theme
+Author: Leon Listo
+Description: custom theme created for my photo album
+Text Domain: photoalbum
+
+*/
+
+h1, .heading, ul{
+    text-align: center;
+    list-style: none;
+    color: whitesmoke;
+}
+ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style: none;
+    margin-top: 4rem;
+}
+li{
+    border-radius: 3%;
+    box-shadow: 5px 3px 3px rgb(93, 115, 163);
+    font-family: 'Roboto', sans-serif;    
+    width: 200px;
+    height: 120px;
+    padding-bottom: 10rem;
+    background: rgb(78, 83, 110);
+    background: radial-gradient(circle, rgb(94, 107, 163) 0%, rgb(75, 45, 51) 100%);
+}
+li:hover{
+   -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    transition:all 0.5s ease;
+}
+.pumpkin, .autumn, .ghosts{
+    width: 100%;
+    height: 100%;
+    border-radius: 3%;
+}
+body{
+	background: rgb(63,94,251);
+background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+}
