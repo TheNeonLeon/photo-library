@@ -11,14 +11,14 @@ h1, .heading, ul{
     list-style: none;
     color: whitesmoke;
 }
-ul{
+.cards{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     list-style: none;
     margin-top: 4rem;
 }
-li{
+.card{
     border-radius: 3%;
     box-shadow: 5px 3px 3px rgb(93, 115, 163);
     font-family: 'Roboto', sans-serif;    
@@ -28,7 +28,7 @@ li{
     background: rgb(78, 83, 110);
     background: radial-gradient(circle, rgb(94, 107, 163) 0%, rgb(75, 45, 51) 100%);
 }
-li:hover{
+.card:hover{
    -webkit-transform: scale(1.1);
     -ms-transform: scale(1.1);
     transform: scale(1.1);

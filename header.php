@@ -6,7 +6,17 @@
     <title>Document</title>
 </head>
 <body>
-
+<?php wp_head(); ?>
+	<nav>
     <h1 class="heading">Welcome</h1>
+		<ul class="nav">
+			<li>
+			<a href="#">Home</a>
+            </li>
+            <li>
+            <a href="/testwebsite/about">About</a>
+            </li>
+		</ul>
+	</nav>
 </body>
 </html>

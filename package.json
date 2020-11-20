@@ -1,0 +1,23 @@
+{
+  "name": "photo-library",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheNeonLeon/photo-library.git"
+  },
+  "author": "Leon Listo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TheNeonLeon/photo-library/issues"
+  },
+  "homepage": "https://github.com/TheNeonLeon/photo-library#readme",
+  "dependencies": {
+    "npm-watch": "^0.7.0",
+    "watch": "^1.0.2"
+  }
+}
