@@ -16,6 +16,9 @@
             <li>
             <a href="/testwebsite/about">About</a>
             </li>
+            <li>
+            <a href="#">Contact</a>
+            </li>
 		</ul>
 	</nav>
 </body>

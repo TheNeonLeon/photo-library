@@ -6,7 +6,7 @@ Text Domain: photoalbum
 
 */
 
-h1, .heading, ul{
+h1, .heading, ul, a:link{
     text-align: center;
     list-style: none;
     color: whitesmoke;
